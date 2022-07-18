@@ -257,14 +257,6 @@ div:hover > img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
   );
 }
 /* initialization */
-a[href*="https://support.discord.com"]:after
-{
-  animation: initialize 2.75s 2 normal linear 4s;
-  transform: translate(30000px);
-  content: "hi";
-  font-size: 22px;
-  position: absolute;
-}
 @keyframes initialize {
   0% {
     background: url("https://media.discordapp.net/attachments/756856464374628352/848503285556051988/partnerbadge.gif");
@@ -284,13 +276,6 @@ a[href*="https://support.discord.com"]:after
   100% {
     background: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png");
   }
-}
-.toolbar-3_r2xA::after {
-  animation: devbadge 5.5s 2 4s normal linear;
-  transform: translate(1000px);
-  content: "hi";
-  font-size: 22px;
-  position: absolute;
 }
 
 /* badges everywhere */

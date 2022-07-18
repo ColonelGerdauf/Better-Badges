@@ -12,7 +12,7 @@ For suggestions and bug reports you can put them in the issues tab.
 ### v1.4 - Refactoring
 - [x] Remove redunant code
 
-- [ ] Remove bits of code that can cause problems in different themes
+- [x] Remove bits of code that can cause problems in different themes
 
 - [ ] reformat the core so that it would break less upon a major Discord update
 

@@ -10,7 +10,7 @@ For suggestions and bug reports you can put them in the issues tab.
 
 ## Todo
 ### v1.4 - Refactoring
-- [ ] Remove redunant code
+- [x] Remove redunant code
 
 - [ ] Remove bits of code that can cause problems in different themes
 

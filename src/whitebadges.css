@@ -1,7 +1,7 @@
 :root {
   --badge-size: 18px !important;
   --badge-margin: 1.5px;
-  --badges-everywhere-size:15px;
+  --badges-everywhere-size: 15px;
 }
 .container-1gYwHN>* {
   justify-content: flex-end;
@@ -68,13 +68,13 @@ img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
 img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"] {
   filter: brightness(1.1) opacity(100%) grayscale(1.05);
   padding: 0;
-  overflow:auto;
+  overflow: auto;
   box-sizing: border-box;
 }
 /* certifed moderator */
 img[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
  padding: 0;
- overflow:visible;
+ overflow: visible;
    box-sizing: border-box;
    filter: brightness(4);
 }
@@ -99,7 +99,7 @@ img[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
 }
 /* old credit; please leave alone */
 .userPopout-2j1gM4[aria-label="mr_miner"] .headerText-1-WmDq::after {
-  content:"Better Badges Dev";
+  content: "Better Badges Dev";
   font-size: 13px;
   -webkit-text-fill-color: rgb(226, 117, 253);  
   font-family: 'Slabo 13px', sans-serif;

@@ -42,14 +42,16 @@
   width: var(--badge-size) !important;
 }
 /* Hype Squad Badges*/
-img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
+.clickable-28QF7i img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"],
+.clickable-1knRMS img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   transition-delay: 2s;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
   background-image: url("https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg");
 }
-div:hover > img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
+.clickable-28QF7i:hover img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"],
+.clickable-1knRMS:hover img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif");
   transform: translateY(-1.5px);
   transition-delay: 0s;
@@ -64,29 +66,29 @@ div[aria-label*="HypeSquad"] > img {
 div[aria-label*="HypeSquad"]:hover > img {
   filter: drop-shadow(0px 0px 2px var(--hypesquad-colour));
 }
+img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
+  background-image: url("https://discord.com/assets/995ecfdbdf94ad84dd4d802c104e4630.svg");
+}
 div:hover > img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
   --hypesquad-colour: rgb(156, 132, 239);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png");
   transform: scale(1.35);
+}
+img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
+  background-image: url("https://discord.com/assets/473dadec13ab7e90e209cc60fccb31c5.svg");
 }
 div:hover > img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
   --hypesquad-colour: rgb(244, 123, 103);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png");
   transform: scale(1.35);
 }
+img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
+  background-image: url("https://discord.com/assets/58f11abcf3c13812bff969baaeb84d82.svg");
+}
 div:hover > img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
   --hypesquad-colour: rgb(69, 221, 192);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png");
   transform: scale(1.35);
-}
-img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
-  background-image: url("https://discord.com/assets/995ecfdbdf94ad84dd4d802c104e4630.svg");
-}
-img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
-  background-image: url("https://discord.com/assets/473dadec13ab7e90e209cc60fccb31c5.svg");
-}
-img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
-  background-image: url("https://discord.com/assets/58f11abcf3c13812bff969baaeb84d82.svg");
 }
 /* Nitro badge */
 img[src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"] {

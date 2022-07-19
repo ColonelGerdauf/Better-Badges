@@ -15,85 +15,64 @@
   box-sizing: border-box;
 }
 /* discord staff */
-.clickable-28QF7i img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"],
-.clickable-1knRMS img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
+img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
   background-image: url("https://discord.com/assets/7cfd90c8062139e4804a1fa59f564731.svg") !important;
 }
 /* partner */
-.clickable-28QF7i img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"],
-.clickable-1knRMS img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
+img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
   background-image: url("https://discord.com/assets/a6a741e07b5ec2d1583f8b98df3c2143.svg") !important;
 }
 /* hypesquad events*/
-.clickable-28QF7i img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"],
-.clickable-1knRMS img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
+img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   background-image: url("https://discord.com/assets/3a050fcc884255231b99b7033c776070.svg") !important;
 }
 /* bravery|brilliance|balance */
-.clickable-28QF7i img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"],
-.clickable-1knRMS img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
+img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
   transform: scale(0.85);
   background-image: url("https://discord.com/assets/1115767aed344e96a27a12e97718c171.svg") !important;
 }
-.clickable-28QF7i img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"],
-.clickable-1knRMS img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
+img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
   transform: scale(0.85);
   background-image: url("https://discord.com/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg") !important;
 }
-.clickable-28QF7i img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"],
-.clickable-1knRMS img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
+img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
   transform: scale(0.85);
   background-image: url("https://discord.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg") !important;
 }
 /*verified bot dev*/
-.clickable-28QF7i img[src="/assets/4441e07fe0f46b3cb41b79366236fca6.svg"],
-.clickable-1knRMS img[src="/assets/4441e07fe0f46b3cb41b79366236fca6.svg"] {
+img[src="/assets/4441e07fe0f46b3cb41b79366236fca6.svg"] {
   background-image: url("https://discord.com/assets/785d81fdbedd133e213da693aba98774.svg") !important;
 }
 /* early supporter */
-.clickable-28QF7i img[src="/assets/b802e9af134ff492276d94220e36ec5c.svg"],
-.clickable-1knRMS img[src="/assets/b802e9af134ff492276d94220e36ec5c.svg"] {
+img[src="/assets/b802e9af134ff492276d94220e36ec5c.svg"] {
   background-image: url("https://discord.com/assets/ce15562552e3d70c56d5408cfeed2ffd.svg") !important;
 }
 /* nitro */
-.clickable-28QF7i img[src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"],
-.clickable-1knRMS img[src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"] {
+img[src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"] {
   background-image: url("https://discord.com/assets/379d2b3171722ef8be494231234da5d1.svg") !important;
 }
 /* bug hunter */
-.clickable-28QF7i img[src="/assets/8353d89b529e13365c415aef08d1d1f4.svg"],
-.clickable-1knRMS img[src="/assets/8353d89b529e13365c415aef08d1d1f4.svg"],
-.clickable-28QF7i img[src="/assets/f599063762165e0d23e8b11b684765a8.svg"],
-.clickable-1knRMS img[src="/assets/f599063762165e0d23e8b11b684765a8.svg"] {
+img[src="/assets/8353d89b529e13365c415aef08d1d1f4.svg"],
+img[src="/assets/f599063762165e0d23e8b11b684765a8.svg"] {
   background-image: url("https://discord.com/assets/df26f079738a4dcd07cbce6eb3c957f1.svg") !important;
 }
 /* server booster */
-.clickable-28QF7i img[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
-.clickable-1knRMS img[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
-.clickable-28QF7i img[src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"],
-.clickable-1knRMS img[src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"],
-.clickable-28QF7i img[src="/assets/4a2618502278029ce88adeea179ed435.svg"],
-.clickable-1knRMS img[src="/assets/4a2618502278029ce88adeea179ed435.svg"],
-.clickable-28QF7i img[src="/assets/fbafa6adb7c49a6a2c3822521ff2af2f.svg"],
-.clickable-1knRMS img[src="/assets/fbafa6adb7c49a6a2c3822521ff2af2f.svg"],
-.clickable-28QF7i img[src="/assets/0599f90e32c15b532647163edd72f70a.svg"],
-.clickable-1knRMS img[src="/assets/0599f90e32c15b532647163edd72f70a.svg"],
-.clickable-28QF7i img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
-.clickable-1knRMS img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
-.clickable-28QF7i img[src="/assets/c7f26927db5e7806790f4e968038630a.svg"],
-.clickable-1knRMS img[src="/assets/c7f26927db5e7806790f4e968038630a.svg"],
-.clickable-28QF7i img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
-.clickable-1knRMS img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
-.clickable-28QF7i img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"],
-.clickable-1knRMS img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"] {
+img[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
+img[src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"],
+img[src="/assets/4a2618502278029ce88adeea179ed435.svg"],
+img[src="/assets/fbafa6adb7c49a6a2c3822521ff2af2f.svg"],
+img[src="/assets/0599f90e32c15b532647163edd72f70a.svg"],
+img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
+img[src="/assets/c7f26927db5e7806790f4e968038630a.svg"],
+img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
+img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"] {
   filter: brightness(1.1) opacity(100%) grayscale(1.05);
   padding: 0;
   overflow: auto;
   box-sizing: border-box;
 }
 /* certifed moderator */
-.clickable-28QF7i img[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"],
-.clickable-1knRMS img[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
+img[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
  padding: 0;
  overflow: visible;
    box-sizing: border-box;

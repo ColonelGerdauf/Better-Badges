@@ -14,6 +14,4 @@ For suggestions and bug reports you can put them in the issues tab.
 
 - [x] Remove bits of code that can cause problems in different themes
 
-- [x] reformat the core so that it would break less upon a major Discord update
-
 - [ ] Fix the specific badges disappearing when hovered

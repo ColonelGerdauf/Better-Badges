@@ -1,75 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 @keyframes devbadge {
-  0% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png");
-  }
-  6.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838641575919616/thing2.png");
-  }
-  12.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838643107889173/thing3.png");
-  }
-  18.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838644717977660/thing4.png");
-  }
-  25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838646499901500/thing5.png");
-  }
-  31.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838647398006804/thing6.png");
-  }
-  37.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838648417615903/thing7.png");
-  }
-  43.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838649788497940/thing8.png");
-  }
-  50% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838650111852544/thing9.png");
-  }
-  56.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838652200353792/thing10.png");
-  }
-  62.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848841593095454780/thing11.png");
-  }
-  68.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838686955012126/thing12.png");
-  }
-  75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838692889034752/thing13.png");
-  }
-  81.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838702435139615/thing14.png");
-  }
-  87.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838706067537951/thing15.png");
-  }
-  93.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838717279174666/thing16.png");
-  }
-  100% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png");
-  }
+  0% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png"); }
+  6.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838641575919616/thing2.png"); }
+  12.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838643107889173/thing3.png"); }
+  18.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838644717977660/thing4.png"); }
+  25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838646499901500/thing5.png"); }
+  31.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838647398006804/thing6.png"); }
+  37.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838648417615903/thing7.png"); }
+  43.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838649788497940/thing8.png"); }
+  50% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838650111852544/thing9.png"); }
+  56.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838652200353792/thing10.png"); }
+  62.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848841593095454780/thing11.png"); }
+  68.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838686955012126/thing12.png"); }
+  75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838692889034752/thing13.png"); }
+  81.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838702435139615/thing14.png"); }
+  87.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838706067537951/thing15.png"); }
+  93.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838717279174666/thing16.png"); }
+  100% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png"); }
+}
+/* initialization */
+@keyframes initialize {
+  0% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503285556051988/partnerbadge.gif"); }
+  20% { background-image: url("https://cdn.discordapp.com/emojis/845808489238757426.gif"); }
+  40% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif"); }
+  60% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png"); }
+  80% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png"); }
+  100% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png"); }
 }
 @keyframes dance {
-  10%,
-  90% {
-    transform: translate(-0.5px) scale(1.5);
-  }
-  20%,
-  80% {
-    transform: translate(1px) scale(1.5);
-  }
-  30%,
-  50%,
-  70% {
-    transform: translate(-2px) scale(1.5);
-  }
-  40%,
-  60% {
-    transform: translate(2px) scale(1.5);
-  }
+  10%, 90% { transform: translate(-0.5px) scale(1.5); }
+  20%, 80% { transform: translate(1px) scale(1.5); }
+  30%, 70%, 50% { transform: translate(-2px) scale(1.5); }
+  40%, 60% { transform: translate(2px) scale(1.5); }
 }
 .container-1gYwHN > * {
   justify-content: flex-end;
@@ -252,32 +214,8 @@ div:hover > img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
 }
 .warningCircleIcon-1YXIHu:hover path,
 .warningCircleIcon-mFju_m:hover path {
-  d: path(
-    "M 10 0 Z M 9 4 H 11 V 11 H 9 V 4 Z M 10 15.25 C 9.31 15.25 8.75 14.691 8.75 14 C 8.75 13.31 9.31 12.75 10 12.75 C 10.69 12.75 11.25 13.31 11.25 14 C 11.25 14.691 10.69 15.25 10 15.25 Z"
-  );
+  d: path("M 10 0 Z M 9 4 H 11 V 11 H 9 V 4 Z M 10 15.25 C 9.31 15.25 8.75 14.691 8.75 14 C 8.75 13.31 9.31 12.75 10 12.75 C 10.69 12.75 11.25 13.31 11.25 14 C 11.25 14.691 10.69 15.25 10 15.25 Z");
 }
-/* initialization */
-@keyframes initialize {
-  0% {
-    background: url("https://media.discordapp.net/attachments/756856464374628352/848503285556051988/partnerbadge.gif");
-  }
-  20% {
-    background: url("https://cdn.discordapp.com/emojis/845808489238757426.gif");
-  }
-  40% {
-    background: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif");
-  }
-  60% {
-    background: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png");
-  }
-  80% {
-    background: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png");
-  }
-  100% {
-    background: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png");
-  }
-}
-
 /* badges everywhere */
 .badges img,
 .badges-XRnWAp img {
@@ -291,13 +229,9 @@ div:hover > img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
 .badges img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"],
 .badges > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"],
 .badges > div[aria-label*="HypeSquad"] > img,
-.badges
-  img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]
-  .badges
-  img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
+.badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]
+ .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
-  /* overflow: hidden; */
-  /* background-color: white; */
 }
 .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
   transform: translate(1px, 0.3px);
@@ -338,14 +272,10 @@ div:hover > img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
 .badges-XRnWAp img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"],
 .badges-XRnWAp img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"],
 .badges-XRnWAp img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"],
-.badges-XRnWAp
-  > div:hover
-  > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"],
+.badges-XRnWAp > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"],
 .badges-XRnWAp > div[aria-label*="HypeSquad"] > img,
-.badges-XRnWAp
-  img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]
-  .badges-XRnWAp
-  img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
+.badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]
+ .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
   overflow: hidden;
 }
@@ -361,7 +291,7 @@ div:hover > img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
   overflow: hidden;
   box-sizing: border-box;
 }
-/* coolkid */
+/* old credit; please leave alone */
 .userPopout-2j1gM4[aria-label="mr_miner"] .headerText-1-WmDq::after {
   content: "Better Badges Dev";
   font-size: 13px;
@@ -369,7 +299,6 @@ div:hover > img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
   font-family: "Slabo 13px", sans-serif;
   font-weight: 500;
 }
-.userPopout-2j1gM4[aria-label="mr_miner"]
-  .headerTagDiscriminatorNoNickname-dfcvHa:after {
+.userPopout-2j1gM4[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-dfcvHa:after {
   content: "" !important;
 }

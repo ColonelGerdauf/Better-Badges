@@ -1,22 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 @keyframes devbadge {
-  0% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png"); }
-  6.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838641575919616/thing2.png"); }
-  12.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838643107889173/thing3.png"); }
-  18.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838644717977660/thing4.png"); }
-  25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838646499901500/thing5.png"); }
-  31.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838647398006804/thing6.png"); }
-  37.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838648417615903/thing7.png"); }
-  43.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838649788497940/thing8.png"); }
-  50% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838650111852544/thing9.png"); }
-  56.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838652200353792/thing10.png"); }
-  62.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848841593095454780/thing11.png"); }
-  68.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838686955012126/thing12.png"); }
-  75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838692889034752/thing13.png"); }
-  81.25% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838702435139615/thing14.png"); }
-  87.5% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838706067537951/thing15.png"); }
-  93.75% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838717279174666/thing16.png"); }
-  100% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png"); }
+  0%, 18.75%, 87.5%, 93.75%, 100%
+  { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/vd-000.png"); }
+  6.25%, 12.5%, 25%, 31.25%, 37.5%
+  { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/vd-100.png"); }
+  43.75%, 56.25%, 68.75%
+  { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/vd-110.png"); }
+  62.5%, 75%, 81.25%
+  { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/vd-010.png"); }
+  50%
+  { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/vd-111.png"); }
 }
 /* initialization */
 @keyframes initialize {
@@ -292,7 +285,7 @@ div:hover img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
 }
 /* old credit; please leave alone */
 .userPopout-2j1gM4[aria-label="mr_miner"] .headerText-1-WmDq::after {
-  content: "Better Badges Dev";
+  content: "Original Better Badges Dev";
   font-size: 13px;
   -webkit-text-fill-color: rgb(226, 117, 253);
   font-family: "Slabo 13px", sans-serif;

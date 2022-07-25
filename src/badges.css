@@ -13,9 +13,9 @@
 }
 /* initialization */
 @keyframes initialize {
-  0% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/partner.png"); }
+  0% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/partner.gif"); }
   20% { background-image: url("https://cdn.discordapp.com/emojis/845808489238757426.gif"); }
-  40% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif"); }
+  40% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/events.gif"); }
   60% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png"); }
   80% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png"); }
   100% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png"); }

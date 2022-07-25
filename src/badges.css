@@ -43,7 +43,7 @@ img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   background-image: url("https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg");
 }
 div:hover img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif");
+  background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/events.gif");
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
@@ -158,7 +158,7 @@ img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
   transform: translateY(2.4px);
 }
 div:hover img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503285556051988/partnerbadge.gif");
+  background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/partner.gif");
   transition-delay: 0s;
 }
 /* Certified moderator badge */

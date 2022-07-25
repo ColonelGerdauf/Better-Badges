@@ -15,7 +15,7 @@
 @keyframes initialize {
   0% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/partner.gif"); }
   20% { background-image: url("https://cdn.discordapp.com/emojis/845808489238757426.gif"); }
-  40% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/events.gif"); }
+  40% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/events.gif"); }
   60% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png"); }
   80% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png"); }
   100% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png"); }
@@ -43,7 +43,7 @@ img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   background-image: url("https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg");
 }
 div:hover img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
-  background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/events.gif");
+  background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/events.gif");
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }

@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
+:root {
+  --partner-gif: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/partner.gif");
+  --booster: url("https://cdn.discordapp.com/emojis/845808489238757426.gif"); 
+  --events: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/events.gif");
+  --badge-bravery: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/bravery.png");
+  --badge-brilliance: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/brilliance.png");
+  --badge-balance: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/balance.png");
+}
 @keyframes devbadge {
   0%, 18.75%, 87.5%, 93.75%, 100%
   { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/verdev/vd-000.png"); }
@@ -13,12 +21,12 @@
 }
 /* initialization */
 @keyframes initialize {
-  0% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/partner.gif"); }
-  20% { background-image: url("https://cdn.discordapp.com/emojis/845808489238757426.gif"); }
-  40% { background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/events.gif"); }
-  60% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png"); }
-  80% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png"); }
-  100% { background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png"); }
+  0% { background-image: var(--partner-gif); }
+  20% { background-image: var(--booster); }
+  40% { background-image: var(--events); }
+  60% { background-image: var(--badge-bravery); }
+  80% { background-image: var(--badge-brilliance); }
+  100% { background-image: var(--badge-balance); }
 }
 @keyframes dance {
   10%, 90% { transform: translate(-0.5px) scale(1.5); }
@@ -43,7 +51,7 @@ img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   background-image: url("https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg");
 }
 div:hover img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
-  background-image: url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/events.gif");
+  background-image: var(--events);
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
@@ -62,7 +70,7 @@ img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
 }
 div:hover img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
   --hypesquad-colour: rgb(156, 132, 239);
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png");
+  background-image: var(--badge-bravery);;
   transform: scale(1.35);
 }
 img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
@@ -70,7 +78,7 @@ img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
 }
 div:hover img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
   --hypesquad-colour: rgb(244, 123, 103);
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png");
+  background-image: var(--badge-brilliance);
   transform: scale(1.35);
 }
 img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
@@ -78,7 +86,7 @@ img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
 }
 div:hover img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
   --hypesquad-colour: rgb(69, 221, 192);
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png");
+  background-image: var(--badge-balance); 
   transform: scale(1.35);
 }
 /* Nitro badge */
@@ -113,7 +121,7 @@ div:hover img[src="/assets/e07c08cdc72bcc78b69c76d2c7ceb344.svg"],
 div:hover img[src="/assets/c7f26927db5e7806790f4e968038630a.svg"],
 div:hover img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
 div:hover img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"] {
-  content: url("https://cdn.discordapp.com/emojis/845808489238757426.gif");
+  content: var(--booster);
 }
 /* Early Supporter */
 img[src="/assets/b802e9af134ff492276d94220e36ec5c.svg"] {

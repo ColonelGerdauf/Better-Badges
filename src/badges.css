@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 :root {
   --nitro-classic:			url("https://discord.com/assets/b802e9af134ff492276d94220e36ec5c.svg");
-  --staff:				    	url("https://discord.com/assets/48d5bdcffe9e7848067c2e187f1ef951.svg");
-  --partner			    		url("https://discord.com/assets/34306011e46e87f8ef25f3415d3b99ca.svg");
-  --partner-anim:	  		url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/partner.gif");
-  --booster:		    		url("https://cdn.discordapp.com/emojis/845808489238757426.gif"); 
-  --events:			    		url("https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg");
-  --events-anim:	  		url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/events.gif");
+  --staff:					url("https://discord.com/assets/48d5bdcffe9e7848067c2e187f1ef951.svg");
+  --partner:					url("https://discord.com/assets/34306011e46e87f8ef25f3415d3b99ca.svg");
+  --partner-anim:			url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/partner.gif");
+  --booster:				url("https://cdn.discordapp.com/emojis/845808489238757426.gif"); 
+  --events:					url("https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg");
+  --events-anim:			url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/events.gif");
   --badge-bravery:			url("https://discord.com/assets/995ecfdbdf94ad84dd4d802c104e4630.svg");
-  --sig-bravery:	  		url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/bravery.png");
+  --sig-bravery:			url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/bravery.png");
   --badge-brilliance:		url("https://discord.com/assets/473dadec13ab7e90e209cc60fccb31c5.svg");
   --sig-brilliance:			url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/brilliance.png");
   --badge-balance:			url("https://discord.com/assets/58f11abcf3c13812bff969baaeb84d82.svg");
-  --sig-balance:		  	url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/balance.png");
+  --sig-balance:			url("https://raw.githubusercontent.com/ColonelGerdauf/Better-Badges/main/img/hypesquad/badge/balance.png");
 }
 @keyframes devbadge {
   0%, 18.75%, 87.5%, 93.75%, 100%
